@@ -3,8 +3,8 @@ const miFuncion = async () => {
     const response = await fetch("https://raw.githubusercontent.com/anasofia-pacheco23/Taller-calificable/main/tienda.json");
     const data = await response.json();
 
-    for(let ropa of data){
-        console.log(ropa);
+    for(let tienda of data) {
+        console.log(tienda);
     }
 
     const jsonString = JSON.stringify(data);
