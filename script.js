@@ -15,5 +15,7 @@ const miFuncion = async () => {
     console.log("x2");
 }
 
+miFuncion();
+
 
 
